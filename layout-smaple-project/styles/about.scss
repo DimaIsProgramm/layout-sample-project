@@ -1,12 +1,11 @@
 .about {
+  padding: 46px 15px;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 77px 130px 76px 130px;
+  background: #f4f5f7;
 }
 
-.article {
-  width: 555px;
+.article:last-child {
+  margin-top: 20px;
 }
 
 .article__title {
@@ -14,6 +13,22 @@
   font-size: 22px;
   line-height: 32px;
   margin: 0;
+}
+
+@media screen and (min-width: 320px) {
+  .about {
+    display: flex;
+    justify-content: space-between;
+    padding: 77px 130px 76px 130px;
+  }
+
+  .article {
+    width: 555px;
+  }
+
+  .article:last-child {
+    margin-top: 20px;
+  }
 }
 
 .article__text {
