@@ -127,6 +127,12 @@
 .logo {
   display: flex;
 }
+.logo__descriprion {
+  font-style: 18px;
+  line-height: 25px;
+  color: #2b292d;
+  opacity: 0.6;
+}
 .logo__image {
   width: 48px;
   height: 48px;
@@ -427,6 +433,7 @@
   font-weight: 700;
   border-radius: 2px;
   border: none;
+  margin-top: 15px;
 }
 @media screen and (min-width: 1400px) {
   .headline__learn-more-btn {
