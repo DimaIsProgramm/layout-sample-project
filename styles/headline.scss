@@ -73,9 +73,11 @@
     font-weight: 700;
     border-radius: 2px;
     border: none;
+    margin-top: 15px;
 
     @include for-large-up {
       margin-left: 10px;
+      margin-top: 0;
     }
   }
 
@@ -94,7 +96,7 @@
   }
   &__action-btn {
     max-width: 100%;
-    margin-bottom: 15px;
+
     @include for-large-down {
       width: 100%;
     }

@@ -1,6 +1,6 @@
 $lg: 1400px;
 @mixin for-large-up {
-  @media screen and (min-width: $lg) {
+  @media screen and (min-width: $lg - 1) {
     @content;
   }
 }
