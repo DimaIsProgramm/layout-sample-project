@@ -3,10 +3,10 @@
   background-color: $color-light;
 
   @include for-large-up {
-    padding: 73px 0 72px 0;
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    padding: 73px 0 72px 0;
   }
 
   &__details {
@@ -14,9 +14,12 @@
   }
   &__illustration {
     max-width: 200px;
+    display: flex;
+    margin: auto;
 
     @include for-large-up {
       max-width: 269px;
+      margin: 0;
       margin-right: 121px;
     }
   }
@@ -52,13 +55,13 @@
   }
 
   &__email {
+    text-align: center;
     margin-top: 40px;
     background: #ffffff;
     border: 1px solid $border-color;
     border-radius: 2px;
     height: 48px;
     width: 100%;
-    text-align: center;
     font-size: 18px;
     line-height: 13px;
 

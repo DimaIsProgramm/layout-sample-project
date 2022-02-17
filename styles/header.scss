@@ -1,17 +1,17 @@
 .header {
+  display: flex;
+  align-items: center;
   height: 64px;
   width: 100%;
   background-color: #fff;
-  display: flex;
-  align-items: center;
   padding-left: 15px;
 
   @include for-large-up {
+    display: flex;
     background-color: #f3c6bd;
     width: 1140px;
     height: 62px;
     margin: auto;
-    display: flex;
   }
 
   &__button {
@@ -36,10 +36,10 @@
   }
 
   &__menu-icon {
+    display: inline-block;
     width: 18px;
     height: 13px;
     background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png');
-    display: inline-block;
   }
 
   .logo__description {

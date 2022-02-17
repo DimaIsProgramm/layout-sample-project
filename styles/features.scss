@@ -41,8 +41,8 @@
   }
 
   &__advantage-header {
-    line-height: 42px;
     display: flex;
+    line-height: 42px;
     margin-top: 42px;
   }
 
@@ -64,10 +64,10 @@
   }
 
   &__advantage-item {
+    display: flex;
     border-bottom: 1px solid #2b292d26;
     margin-top: 21px;
     margin-bottom: 22px;
-    display: flex;
   }
 
   &__advantage-item-text {

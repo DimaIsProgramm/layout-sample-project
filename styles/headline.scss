@@ -2,11 +2,11 @@
   width: 100%;
 
   @include for-large-up {
+    display: flex;
     position: relative;
     width: 1140px;
     margin: auto;
     margin-top: 84px;
-    display: flex;
     padding-bottom: 77px;
   }
 
@@ -73,7 +73,6 @@
     font-weight: 700;
     border-radius: 2px;
     border: none;
-    margin-top: 15px;
 
     @include for-large-up {
       margin-left: 10px;
@@ -94,6 +93,7 @@
     }
   }
   &__action-btn {
+    max-width: 100%;
     @include for-large-down {
       width: 100%;
     }
